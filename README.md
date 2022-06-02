@@ -5,5 +5,5 @@
 One of my first projects created with HTML, CSS and a little JS. Design and idea by myself.
 
 ## Preview
-https://wauk33.github.io/MyRepo/old%20CSS%20Simple%20game%20website
+https://wauk33.github.io/Old-Game_website
 > Hosted on GitHub Pages
