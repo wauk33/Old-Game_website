@@ -1,8 +1,8 @@
 # Game website
-> The code was created a long time ago when I have been learning HTML and CSS, it is just a little __outdated__.
+> Made during learning HTML and CSS. It is __outdated__, not correctly created and has display issues.
 
 ## General info
-One of my first projects created with HTML, CSS and a little JS. Design and idea made by myself.
+One of my first projects created with HTML, CSS and a little JS. Design and idea by myself.
 
 ## Preview
 https://wauk33.github.io/MyRepo/old%20CSS%20Simple%20game%20website
