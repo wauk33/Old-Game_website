@@ -1,0 +1,1858 @@
+
+body {  
+  background-image: url("headerimg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  }
+  
+  #topcon {
+  
+    background-image: url(menubar.png);
+    background-size: 100% 100%;
+    display: flex;
+    flex: 2;
+  width: 100%;
+  height: 150px;
+  margin-top: 70px;
+  text-align: center;
+  
+  }
+  #shadowboxcon {
+    z-index: 1;
+    position: absolute;
+    width: 98%;
+    margin-left: 0px;
+    margin-top: -150px;
+    height: 150px;
+    box-shadow: 0px 0px 10px -10px rgba(0, 0, 0, 0.692), 0px 20px 10px -10px rgba(0, 0, 0, 0.692);
+  }
+  #menubar{
+    z-index: 40;
+    flex: 1;
+  width: 100%;
+  height: 50px;
+  margin-top: 5.1%;
+  
+  }
+  .circle1 {
+    cursor: pointer;
+    z-index: 50;
+  position: absolute;
+  margin-left: -270px;
+  margin-top: -50px;
+    flex: 1;
+  height: 250px;
+  width: 250px;
+  background-color: rgb(139, 171, 231);
+  border-radius: 250px;
+  background-image: url(parkavenuelogo.png);
+  background-size: 500px 340px;
+  background-repeat: no-repeat;
+  background-position-x: -125px;
+  background-position-y: -20px;
+  }
+  
+  #artcon {
+    background-image: url("artconimg.png");
+    background-repeat: no-repeat;
+    margin-left: 65px;
+    margin-top: 6%;
+    width: 90%;
+    height: 650px;
+  }
+              #footcon {
+                margin-top: 5%;
+                width: 100%;
+                height: 200px;
+                background-color: rgb(12, 12, 12);
+                font-family: 'Yeon Sung';
+                display: flex;
+                flex: 3;
+                text-align: center;
+              }
+  #footsec1{
+  color: rgb(231, 150, 44);
+  flex: 1;
+  order: 1;
+  margin-left: -80px;
+  margin-top: -10px;
+  }
+  #revision{
+    width: 300px;
+    margin-left: 50px;
+  }
+  #revision2{
+    width: 300px;
+    margin-left: 40px;
+  }
+  
+  #footsec2{
+    color: rgb(231, 150, 44);
+  flex: 1;
+  order: 2;
+  margin-top: -10px;
+  margin-right: -40px;
+  }
+  #ftlinks {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -10px;
+  }
+  #ftlinks a {
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1.4em;
+  }
+  #ftlinks a:hover {
+    color: white;
+  
+  }
+  #search-icon{
+    width: 35px;
+    height: 35px;
+    margin-bottom: -10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    color: silver;
+  }
+  
+  #footsec3{
+    color: rgb(231, 150, 44);
+  flex: 1;
+  order: 3;
+  margin-top: -10px;
+  }
+  #newsletter-icon{
+    
+    width: 35px;
+    height: 35px;
+    margin-bottom: -10px;
+    margin-right: 10px;
+  }
+  
+  
+              #subfootcon{ /* kontener subfootera*/
+                font-family: 'Yeon Sung';
+                font-size: 14px;
+                display: flex;
+                justify-content: left;
+                flex-flow: row nowrap;
+                color: rgb(17, 17, 17);
+                max-width: 100%;
+                bottom: 0 auto;
+                width: 100%;
+                height: 50px;
+                background-color: rgb(0, 0, 0);
+              }
+  #sf-p0 {
+    padding-top: 15px;
+    padding-left: 25px;
+    order: 1;
+    flex: 1;
+  }
+  #sf-p1 {
+    padding-top: 15px;
+    padding-left: 50px;
+    order: 2;
+    flex: 1;
+  }
+  #sf-p2 {
+    padding-top: 15px;
+    padding-left: 50px;
+    order: 3;
+    flex: 1; 
+  }
+  
+            #sfmediacon {
+              position: absolute;
+              display: flex;
+              height: auto;
+              justify-content: right;
+              right: 0;
+  
+            }
+  #sf-twitter {
+    background-image: url("twitter.png");
+    background-size: 35px 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-right: 100px;
+    order: 1;
+    flex: 1;
+  }
+  #sf-facebook {
+    background-image: url(facebook.png);
+    background-size: 35px 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-right: 100px;
+    order: 2;
+    flex: 1;
+  }
+  #sf-youtube {
+    background-image: url(youtube.png);
+    background-size: 35px 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-right: 100px;
+    order: 3;
+    flex: 1; 
+  }
+  
+  #subfootcon a {
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+  }
+  #subfootcon a:hover {
+    color: white;
+  
+  }
+  .circle1:hover{
+    transition: all 0.3s;
+    box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 0.657)
+  }
+  ul{
+    margin-left: -300px;
+    margin-top: -60px;
+  
+  }
+  #li {
+    cursor: pointer;
+    background-size: 220px 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 130px;
+    display: inline-block;
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 130px 0px 130px;
+    transition: all 0.8s;
+  }
+  #li:nth-child(1) {
+  background-image: url("home.png");
+  }
+  #li:nth-child(2) {
+    background-image: url("parkav.png");
+  }
+  #li:nth-child(3) {
+    background-image: url("playground.png");
+  }
+  #li:nth-child(4) {
+    background-image: url("contactus.png");
+  }
+  #li:nth-child(1):hover {
+    background-image: url("home_h.png");
+    background-position-y: -25px;
+  }
+  #li:nth-child(2):hover {
+    background-image: url("parkav_h.png");
+    background-position-y: -25px;
+  }
+  #li:nth-child(3):hover {
+    background-image: url("playground_h.png");
+    background-position-y: -25px;
+  }
+  #li:nth-child(4):hover {
+    background-image: url("contactus_h.png");
+    background-position-y: -25px;
+  
+  }
+  
+  #imgcon{  
+    margin-top: 80px;
+    background-color: rgba(255, 255, 255, 0.513);
+    position: relative; 
+    width: 640px; 
+    height: 369px; 
+    margin-left: 20px;
+  
+  }
+  #imgcon > div { 
+  
+    position: absolute; 
+     top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px;
+    box-shadow: 0px 0px 20px black;
+  }
+  .imgs {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #newscon{
+    position: absolute;
+    width: 640px;
+    height: 370px;
+    top: 300px;
+    margin-left: 685px;
+    background-size: 100% 100%;
+    background-image: url("TEXTIMG.png");
+
+  }
+  #newsinnercon{
+    width: 520px;
+    height: 280px;
+    margin-top: -35px;
+    padding: 25px 55px 25px 55px;
+    display: flex;
+    flex: 2;  
+    
+  }
+  #newsvid{
+    padding: 10px 7px 0px 15px;
+    flex: 1; 
+  }
+  #newstext {
+    font-size: 0.83em;
+    font-family: 'McLaren', cursive;
+    line-height: 1.2em;
+    padding: 15px 5px 0px 7px;
+    flex: 1;
+    text-align: justify;
+  }
+  #newsbar {
+    background-size: 260px auto;
+    background-repeat: no-repeat;
+    background-image: url("newsbar.png");
+    width: 260px;
+    height: 50px;
+    margin-left: 190px;
+    margin-top: -15px;
+  }
+  
+  #art {
+    font-size: 1.5em;
+    width: 77vw;
+    height: 550px;
+    max-height: 550px;
+    font-family: 'Yeon Sung';
+    color: rgb(0, 0, 0);
+    margin-left: 75px;
+    padding-top: 10px;
+  }
+  h1 {
+    text-shadow: 
+    0px -1px 5px rgba(177, 103, 0, 0.616),
+    0px  1px 5px rgba(177, 103, 0, 0.637); 
+  }
+  h3 {
+    margin-top: 0px;
+    text-shadow: 
+    0px 0px 20px rgba(0, 0, 0, 0.438);
+    text-align: center;
+    font-size: 1.6em;
+    border-bottom: 2px rgba(207, 155, 43, 0.342) solid;
+    padding-bottom: 15px;
+  }
+  h4 {
+    margin-top: -5px;
+    text-align: center;
+    font-size: 1.2em;
+    border-bottom: 2px rgba(207, 155, 43, 0.342) solid;
+    padding-bottom: 7px;
+  
+  }
+  #arttime, #arttime2, #arttime3, #arttime4 {
+  font-size: 0.9em;
+  text-align: right;
+  margin-top: 20px;
+  }
+  .nextleft{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(nextleft.png);
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    margin-top: 135px;
+    margin-left: -15px;
+  }
+  .nextleft:hover{
+    background-image: url(nextleft_h.png);
+  }
+  .nextright{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(nextright.png);
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    margin-top: 135px;
+    margin-left: 600px;
+  }
+  .nextright:hover{
+    background-image: url(nextright_h.png);
+  }
+  #count {
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 295px;
+    opacity: 0.7;
+    text-align: center;
+  }
+  
+  /* news slideshow */
+  
+  .Slides {
+    
+  }
+  .nextleft, .nextright{
+    opacity: 0.9;
+    cursor: pointer;
+    transition: 0.6s ease;
+    user-select: none;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0px 2px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.8s ease;
+  }
+   .dot:hover {
+    background-color: #ff9100;
+    box-shadow: 0px 0px 5px rgb(255, 166, 0);
+  }
+   .active {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px black;
+   }
+  
+  .subscribebutton{
+    width: 120px; 
+    height: 40px;
+    margin-left: 170px;
+    margin-top: 20px; 
+    background-color: rgb(233, 143, 25); 
+    border-radius: 60px; font-size: 0.6em;
+    font-weight: bold;
+  }
+  .buybutton{
+    width: 60px;
+    height: 20px;
+    background-color: rgb(233, 143, 25); 
+    border-radius: 60px; font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: -50px;
+  }
+  .buytext{
+    margin-top: 0px; font-size: 0.9em;
+  }
+  .imgbuybox {
+    width: 100px; margin-left: 0px; margin-top: 0px; float: left;
+  }
+  .sendbutton{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(233, 143, 25); 
+    border-radius: 60px; font-size: 0.8em;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: -500px;
+  
+  }
+  #vbuttonid {
+    width: 30px;
+    height: 30px;
+    background-image: url(vbutton.png);
+    background-size: 30px 30px;
+    position: absolute;
+    margin-top: 278px;
+    margin-left: 540px;
+    border-radius: 50%;
+  }
+  #vbuttonid:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px white inset;
+  }
+  input:focus {
+    outline:0;
+
+  }
+  .imgmagicadventures {
+    margin-bottom: -25px; width: 200px; height: 75px;
+  }
+  .imggirl {
+    width: 400px; margin-top: -50px; float: left;
+  }
+  .imgart2 {
+    width: 550px; padding: 0px 25px 5px 15px; float: left;
+  }
+  .imgart4 {
+    width: 500px; padding: 0px 25px 5px 15px; float: left;
+  }
+    .text {
+      margin-top: -5px; margin-left: 420px; font-size: 0.85em; padding: 0px 10px 10px 10px;
+    }
+    .text2 {
+    margin-top: -5px; font-size: 0.85em; padding: 0px 10px 10px 10px;
+    }
+   .text3 {
+    margin-top: -5px; font-size: 0.8em; padding: 0px 0px 0px 10px;
+    }
+    .text4 {
+    margin-top: -5px; font-size: 0.8em; padding: 0px 0px 0px 10px;
+    }
+    .redtexthalloween{
+      color: darkred;
+      text-shadow: 0px 0px 10px red;
+    }
+  #sfmediacon2 {
+    position: absolute;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    right: 240px;
+    top: 10px;
+    border-radius: 5%;
+    width: 170px;
+  }
+#sf-twitter2 {
+background-image: url("twitter.png");
+background-size: 50px 50px;
+background-position: center;
+background-repeat: no-repeat;
+padding-top: 50px;
+padding-right: 50px;
+order: 1;
+flex: 1;
+border-radius: 50%;
+}
+#sf-facebook2 {
+background-image: url(facebook.png);
+background-size: 50px 50px;;
+background-position: center;
+background-repeat: no-repeat;
+padding-top: 50px;
+padding-right: 50px;
+order: 2;
+flex: 1;
+border-radius: 50%;
+}
+#sf-youtube2 {
+background-image: url(youtube.png);
+background-size: 50px 50px;
+background-position: center;
+background-repeat: no-repeat;
+padding-top: 50px;
+padding-right: 50px;
+order: 3;
+flex: 1; 
+border-radius: 50%;
+}
+#sf-youtube2:hover, #sf-facebook2:hover,
+#sf-twitter2:hover{
+box-shadow: 0px 0px 15px white;
+}
+.contactform{
+  height: 300px; margin-top:10px;
+ }
+ #toTopBtn {
+  display: none;
+  position: fixed;
+  background-image: url(toTopBtn.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 40px;
+  height: 40px;
+  right: 20px;
+  bottom: 60px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+#toTopBtn:hover {
+box-shadow: 0px 0px 10px white;
+cursor: pointer;
+}
+.buybutton{
+  width: 150px;
+  height: 60px;
+  background-color: rgb(233, 143, 25); 
+  border-radius: 60px; font-size: 0.7em;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-left: 35%;
+  position: absolute;
+}
+.buytext{
+  margin-top: 0px; font-size: 1.1em;
+}
+.imgbuybox {
+  width: 350px; margin-left: 0px; margin-top: 0px; float: left;
+}
+html {
+  scroll-behavior: smooth;
+} 
+
+
+
+
+
+/* BODY UP */
+
+
+
+
+
+
+
+
+
+
+/* ---------------- */
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERIES DOWN*/
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:320px){
+
+  #sfmediacon2 {
+    position: absolute;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    right: 10px;
+    top: 10px;
+    border-radius: 5%;
+    width:105px;
+   }
+   #sf-twitter2 {
+    background-size: 30px 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    }
+    #sf-facebook2 {
+    background-size: 30px 30px;;
+    padding-top: 30px;
+    padding-right: 30px;
+    }
+    #sf-youtube2 {
+    background-size: 30px 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    }
+    #toTopBtn{
+      margin-bottom: -25px;
+    }
+    body {
+    
+    }
+    #topcon {
+      width: 100%;
+    height: 60px;
+    margin-top: 80px;
+    }
+    .circle1 {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(139, 171, 231);
+    border-radius: 150px;
+    background-image: url(parkavenuelogo.png);
+    background-size: 175px 100px;
+    background-repeat: no-repeat;
+    background-position-x: -46px;
+    background-position-y: -1px;
+    margin-left: -63%;
+    margin-top: -77px;
+    }
+    ul {
+        margin-left: -50px;
+        margin-top: -25px;
+    }
+    #li {
+      background-size: 70px 70px;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 70px;
+      width: 70px;
+      display: inline-block;
+      list-style: none;
+      margin: 0px 0px 0px 0px;
+      padding: 0px 0px 0px 0px;
+      transition: all 0.8s;
+    }
+    #li:nth-child(1):hover {
+      background-image: url("home_h.png");
+      background-position-y: 15px;
+    }
+    #li:nth-child(2):hover {
+      background-image: url("parkav_h.png");
+      background-position-y: 15px;
+    }
+    #li:nth-child(3):hover {
+      background-image: url("playground_h.png");
+      background-position-y: 15px;
+    }
+    #li:nth-child(4):hover {
+      background-image: url("contactus_h.png");
+      background-position-y: 15px;
+    
+    }
+    #imgcon{  
+      margin-top: 30px;
+      background-color: rgba(255, 255, 255, 0.513);
+      position: relative; 
+      width: 95%; 
+      height: 178px; 
+      margin-left: 2.5%;
+    
+    }
+    #newscon{
+      display: none;
+    }
+  #artcon {
+    background-image: url("artconimg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 6%;
+    width: 97.5%;
+    height: 170px;
+  }
+  #footcon {
+ 
+    margin-top: 5%;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(12, 12, 12);
+    font-family: 'Yeon Sung';
+    display: flex;
+    flex: 3;
+    text-align: center;
+    flex-flow: row wrap;
+  }  
+  #art {
+    font-size: 0.5em;
+    width: 87vw;
+    height: 140px;
+    max-height: 550px;
+    font-family: 'Yeon Sung';
+    color: rgb(0, 0, 0);
+    margin-left: 15px;
+    padding-top: 25px;
+
+  }
+  .imgmagicadventures {
+    margin-bottom: -10px; width: 50px; height: 25px;
+  }
+  .imggirl {
+    display: none;
+  }
+  .imgart2 {
+    display: none;
+  }
+  .imgart4 {
+    display: none;
+  }
+  h3 {
+    margin-top: -5px;
+    margin-left: 10px;
+    text-shadow: 
+    0px 0px 20px rgba(0, 0, 0, 0.438);
+    text-align: left;
+    font-size: 1.6em;
+    border-bottom: 2px rgba(207, 155, 43, 0.342) solid;
+    padding-bottom: 5px;
+  }
+  #arttime, #arttime2, #arttime3, #arttime4 {
+    font-size: 0.9em;
+    text-align: right;
+    margin-top: -20px;
+    }
+  .text {
+    margin-top: -5px; margin-left: 0; font-size: 0.85em; padding: 0px 10px 0px 10px;
+  }
+  .text2 {
+  margin-top: -5px; font-size: 1.2em; padding: 0px 10px 0px 10px;
+}
+  .text3 {
+  margin-top: -5px; font-size: 0.85em; padding: 0px 0px 0px 10px;
+  }
+  .text4 {
+  margin-top: -5px; font-size: 0.85em; padding: 0px 0px 0px 10px;
+  }
+#footsec1{
+  color: rgb(231, 150, 44);
+  flex: 1;
+  order: 1;
+  margin-left: 10px;
+  margin-top: 10px;
+
+
+  }
+  #revision{   
+    width: 250px;
+    margin-left: 30px;
+  }
+  #revision2{  
+    width: 250px;
+    margin-left: 20px;
+  }
+  
+  #footsec2{
+
+    color: rgb(231, 150, 44);
+  flex: 1;
+  order: 2;
+  margin-top: -10px;
+  margin-right: 0px;
+
+  }
+  #ftlinks {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -10px;
+  }
+  #ftlinks a {
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1.4em;
+  }
+  #ftlinks a:hover {
+    color: white;
+  
+  }
+  #search-icon{
+    width: 35px;
+    height: 35px;
+    margin-bottom: -10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    color: silver;
+  }
+  
+  #footsec3{
+    color: rgb(231, 150, 44);
+  flex: 1;
+  order: 3;
+  margin-top: -10px;
+
+  }
+  #newsletter-icon{
+    
+    width: 35px;
+    height: 35px;
+    margin-bottom: -10px;
+    margin-right: 10px;
+  }
+  
+  #subfootcon{ /* kontener subfootera*/
+    font-family: 'Yeon Sung';
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+    color: rgb(17, 17, 17);
+    max-width: 100%;
+    bottom: 0 auto;
+    width: 100%;
+    height: 130px;
+    background-color: rgb(0, 0, 0);
+  }
+  #sf-p0 {
+    padding-top: 95px;
+    margin-left: -20px;
+    order: 1;
+    flex: 1;
+  }
+  #sf-p1 {
+    padding-top: 95px;
+    padding-left: 0px;
+    order: 2;
+    flex: 1;
+  }
+  #sf-p2 {
+    padding-top: 95px;
+    padding-left: 0px;
+    order: 3;
+    flex: 1; 
+  }
+  
+            #sfmediacon {
+              position: absolute;
+              display: flex;
+              height: auto;
+              justify-content: space-around;
+              margin-top: 5px;
+  
+            }
+  #sf-twitter {
+    background-image: url("twitter.png");
+    background-size: 35px 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+
+    order: 1;
+    flex: 1;
+  }
+  #sf-facebook {
+    background-image: url(facebook.png);
+    background-size: 35px 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    order: 2;
+    flex: 1;
+  }
+  #sf-youtube {
+    background-image: url(youtube.png);
+    background-size: 35px 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    order: 3;
+    flex: 1; 
+  }
+  .subscribebutton{
+    width: 120px; 
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 20px; 
+    background-color: rgb(233, 143, 25); 
+    border-radius: 60px; font-size: 0.6em;
+    font-weight: bold;
+  }
+  .contactform{
+    height: 50px; margin-top:10px;
+  }
+
+.buybutton{
+  width: 70px;
+  height: 25px;
+  background-color: rgb(233, 143, 25); 
+  border-radius: 60px; font-size: 1.1em;
+  font-weight: bold;
+  margin-top: -15px;
+  position: absolute;
+  margin-left: 55%;
+}
+.buytext{
+  margin-top: 0px; font-size: 1em;
+}
+.imgbuybox {
+  width: 100px; margin-left: 0px; margin-top: 0px; float: left;
+}
+.sendbutton{
+  width: 50px;
+  height: 20px;
+  background-color: rgb(233, 143, 25); 
+  border-radius: 60px; font-size: 0.8em;
+  font-weight: bold;
+  position: absolute;
+  margin-top: 65px;
+  margin-left: -130px;
+  font-size: 1.2em;
+
+}
+#shadowboxcon {
+  z-index: 1;
+  position: absolute;
+  width: 99%;
+  margin-left: 5px;
+  margin-top: -60px;
+  height: 60px;
+  box-shadow: 0px -20px 10px -10px rgba(0, 0, 0, 0.692), 0px 20px 10px -10px rgba(0, 0, 0, 0.692);
+}
+}
+
+
+
+@media only screen and (min-width: 321px) and (max-width:375px){
+
+  body {
+  
+  }
+  #topcon {
+    width: 100%;
+  height: 60px;
+  margin-top: 80px;
+  }
+  .circle1 {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(139, 171, 231);
+  border-radius: 150px;
+  background-image: url(parkavenuelogo.png);
+  background-size: 175px 100px;
+  background-repeat: no-repeat;
+  background-position-x: -46px;
+  background-position-y: -1px;
+  margin-left: -60%;
+  margin-top: -77px;
+  }
+  ul {
+      margin-left: -40px;
+      margin-top: -25px;
+  }
+  #li {
+    background-size: 80px 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 20%;
+    display: inline-block;
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    transition: all 0.8s;
+  }
+  #li:nth-child(1):hover {
+    background-image: url("home_h.png");
+    background-position-y: 15px;
+  }
+  #li:nth-child(2):hover {
+    background-image: url("parkav_h.png");
+    background-position-y: 15px;
+  }
+  #li:nth-child(3):hover {
+    background-image: url("playground_h.png");
+    background-position-y: 15px;
+  }
+  #li:nth-child(4):hover {
+    background-image: url("contactus_h.png");
+    background-position-y: 15px;
+  
+  }
+  #imgcon{  
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.513);
+    position: relative; 
+    width: 95%; 
+    max-height: 208px; 
+    margin-left: 2.5%;
+    margin-bottom: 95%;
+  
+  }
+  #newscon{
+    position: absolute;
+    width: 96%;
+    height: 290px;
+    top: 300px;
+    margin-left: 7.5px;
+    margin-top: 100px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("TEXTIMG.png");
+  }
+  #newsinnercon{
+    width: 87%;
+    height: 220px;
+    margin-top: -30px;
+    padding: 0px 5px 0px 30px;
+    display: flex;
+    flex: 2;
+    
+  }
+  #newsvid{
+    padding: 30px 7px 0px 20px;
+    flex: 1;
+  }
+  #newstext {
+    font-size: 0.63em;
+    font-family: 'McLaren', cursive;
+    line-height: 0.85em;
+    padding: 20px 25px 0px 7px;
+    flex: 1;
+    text-align: justify;
+  }
+  #newsbar {
+    background-size: 180px auto;
+    background-repeat: no-repeat;
+    background-image: url("newsbar.png");
+    width: 260px;
+    height: 50px;
+    margin-left: 29%;
+    margin-top: -8px;
+  }
+  #count {
+    position: absolute;
+    margin-top: 241px;
+    margin-left: 44.5%;
+    opacity: 0.7;
+    text-align: center;
+  }
+  .nextleft{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url(nextleft.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    margin-top: 110px;
+    margin-left: -5%;
+  }
+  .nextright{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url(nextright.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    margin-top: 110px;
+    margin-left: 91%;
+  }
+#artcon {
+  background-image: url("artconimg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5%;
+  width: 97.5%;
+  height: 220px;
+}
+#footcon {
+  margin-top: 5%;
+  width: 100%;
+  height: 700px;
+  background-color: rgb(12, 12, 12);
+  font-family: 'Yeon Sung';
+  display: flex;
+  flex: 3;
+  text-align: center;
+  flex-flow: row wrap;
+}  
+#art {
+  font-size: 0.5em;
+  width: 87vw;
+  height: 140px;
+  max-height: 550px;
+  font-family: 'Yeon Sung';
+  color: rgb(0, 0, 0);
+  margin-left: 15px;
+  padding-top: 25px;
+
+}
+.imgmagicadventures {
+  margin-bottom: -10px; width: 50px; height: 25px;
+}
+.imggirl {
+  width: 120px; margin-top: -5px; float: left; margin-left: 5px;
+}
+.imgart2 {
+  width: 130px; padding: 0px 10px 5px 10px; float: left;
+}
+.imgart4 {
+  width: 180px; padding: 0px 10px 5px 10px; float: left;
+}
+h3 {
+  margin-top: -5px;
+  margin-left: 10px;
+  text-shadow: 
+  0px 0px 20px rgba(0, 0, 0, 0.438);
+  text-align: center;
+  font-size: 1.6em;
+  border-bottom: 2px rgba(207, 155, 43, 0.342) solid;
+  padding-bottom: 5px;
+}
+#arttime, #arttime2, #arttime3, #arttime4 {
+  font-size: 0.9em;
+  text-align: right;
+  margin-top: -20px;
+  }
+  .text {
+  margin-top: -5px; margin-left: 120px; font-size: 0.85em; padding: 0px 10px 0px 10px;
+  }
+  .text2 {
+    margin-top: -5px; margin-left: 120px; font-size: 1.03em; padding: 0px 10px 0px 10px;
+  }
+  .text3 {
+  margin-top: -5px; font-size: 1em; padding: 0px 0px 0px 10px;
+  }
+  .text4 {
+  margin-top: -5px; font-size: 1em; padding: 0px 0px 0px 10px;
+  }
+#footsec1{
+color: rgb(231, 150, 44);
+flex: 1;
+order: 1;
+margin-left: 0px;
+margin-top: 10px;
+
+}
+
+#revision{
+  width: 250px;
+  margin-left: 30px;
+}
+#revision2{
+  width: 250px;
+  margin-left: 20px;
+}
+
+#footsec2{
+
+  color: rgb(231, 150, 44);
+flex: 1;
+order: 2;
+margin-top: -10px;
+margin-right: 0px;
+
+}
+#ftlinks {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: -10px;
+}
+#ftlinks a {
+  color: rgb(190, 190, 190);
+  text-decoration: none;
+  font-size: 1em;
+  line-height: 1.4em;
+}
+#ftlinks a:hover {
+  color: white;
+
+}
+#search-icon{
+  width: 35px;
+  height: 35px;
+  margin-bottom: -10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  color: silver;
+}
+
+#footsec3{
+  color: rgb(231, 150, 44);
+flex: 1;
+order: 3;
+margin-top: -10px;
+
+}
+#newsletter-icon{
+  
+  width: 35px;
+  height: 35px;
+  margin-bottom: -10px;
+  margin-right: 10px;
+}
+
+#subfootcon{ /* kontener subfootera*/
+  font-family: 'Yeon Sung';
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row nowrap;
+  color: rgb(17, 17, 17);
+  max-width: 100%;
+  bottom: 0 auto;
+  width: 100%;
+  height: 130px;
+  background-color: rgb(0, 0, 0);
+}
+#sf-p0 {
+  padding-top: 95px;
+  margin-left: -20px;
+  order: 1;
+  flex: 1;
+}
+#sf-p1 {
+  padding-top: 95px;
+  padding-left: 0px;
+  order: 2;
+  flex: 1;
+}
+#sf-p2 {
+  padding-top: 95px;
+  padding-left: 0px;
+  order: 3;
+  flex: 1; 
+}
+
+          #sfmediacon {
+            position: absolute;
+            display: flex;
+            height: auto;
+            justify-content: space-around;
+            margin-top: 5px;
+            margin-right:30px;
+          }
+#sf-twitter {
+  background-image: url("twitter.png");
+  background-size: 35px 35px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  order: 1;
+  flex: 1;
+}
+#sf-facebook {
+  background-image: url(facebook.png);
+  background-size: 35px 35px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  order: 2;
+  flex: 1;
+}
+#sf-youtube {
+  background-image: url(youtube.png);
+  background-size: 35px 35px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  order: 3;
+  flex: 1; 
+}
+.buybutton{
+  width: 70px;
+  height: 25px;
+  background-color: rgb(233, 143, 25); 
+  border-radius: 60px; font-size: 1.1em;
+  font-weight: bold;
+  margin-top: -30px;
+  position: absolute;
+  margin-left: 40%;
+}
+.buytext{
+  line-height: 1.2; margin-top: 0px; font-size: 1.3em; padding: 10px 10px 10px 10px;
+}
+.imgbuybox {
+  width: 100px; margin-left: 0px; margin-top: 0px; float: left;
+}
+.subscribebutton{
+  width: 120px; 
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 20px; 
+  background-color: rgb(233, 143, 25); 
+  border-radius: 60px; font-size: 0.6em;
+  font-weight: bold;
+}
+.contactform{
+ height: 100px; margin-top:10px;
+ width: 200px;
+}
+#sfmediacon2 {
+  position: absolute;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  right: 10px;
+  top: 10px;
+  border-radius: 5%;
+  width:105px;
+ }
+ #sf-twitter2 {
+  background-size: 30px 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  }
+  #sf-facebook2 {
+  background-size: 30px 30px;;
+  padding-top: 30px;
+  padding-right: 30px;
+  }
+  #sf-youtube2 {
+  background-size: 30px 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  }
+  #sf-youtube2:hover {
+    box-shadow: 0px 0px 20px black;
+  }
+#toTopBtn {
+  margin-right: -15px;
+  margin-bottom:-20px;
+}
+.sendbutton{
+  width: 50px;
+  height: 20px;
+  background-color: rgb(233, 143, 25); 
+  border-radius: 60px; font-size: 0.8em;
+  font-weight: bold;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: -130px;
+  font-size: 1.2em;
+
+}
+#shadowboxcon {
+  z-index: 1;
+  position: absolute;
+  width: 98%;
+  margin-left: 10px;
+  margin-top: -60px;
+  height: 60px;
+  box-shadow: 0px -20px 10px -10px rgba(0, 0, 0, 0.692), 0px 20px 10px -10px rgba(0, 0, 0, 0.692);
+}
+}
+
+@media only screen and (min-width: 376px) and (max-width:480px){
+  
+ 
+  #shadowboxcon {
+    z-index: 1;
+    position: absolute;
+    width: 98%;
+    margin-left: 10px;
+    margin-top: -70px;
+    height: 70px;
+    box-shadow: 0px -20px 10px -10px rgba(0, 0, 0, 0.692), 0px 20px 10px -10px rgba(0, 0, 0, 0.692);
+  }
+  #vbuttonid {
+    width: 25px;
+    height: 25px;
+    background-image: url(vbutton.png);
+    background-size: 25px 25px;
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 84%;
+    border-radius: 50%;
+  }
+  
+  body {
+  
+  }
+  #topcon {
+    width: 100%;
+  height: 70px;
+  margin-top: 120px;
+  }
+  .circle1 {
+  width: 120px;
+  height: 120px;
+  background-color: rgb(139, 171, 231);
+  border-radius: 150px;
+  background-image: url(parkavenuelogo.png);
+  background-size: 180px 130px;
+  background-repeat: no-repeat;
+  background-position-x: -28px;
+  background-position-y: 0px;
+  margin-left: -62%;
+  margin-top: -117px;
+  }
+  ul {
+      margin-left: -40px;
+      margin-top: -40px;
+  }
+  #li {
+    background-size: 90px 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 20%;
+    display: inline-block;
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    transition: all 0.8s;
+  }
+  #li:nth-child(1):hover {
+    background-image: url("home_h.png");
+    background-position-y: 20px;
+  }
+  #li:nth-child(2):hover {
+    background-image: url("parkav_h.png");
+    background-position-y: 20px;
+  }
+  #li:nth-child(3):hover {
+    background-image: url("playground_h.png");
+    background-position-y: 20px;
+  }
+  #li:nth-child(4):hover {
+    background-image: url("contactus_h.png");
+    background-position-y: 20px;
+  
+  }
+  #imgcon{  
+    margin-top: 350px;
+    background-color: rgba(255, 255, 255, 0.513);
+    position: relative; 
+    width: 95%; 
+    max-height: 270px; 
+    margin-left: 2.5%;
+  
+  }
+  #newscon{
+    position: absolute;
+    width: 96%;
+    height: 290px;
+    top: 300px;
+    margin-left: 10px;
+    margin-top: -90px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("TEXTIMG.png");
+  }
+  #newsinnercon{
+    width: 87%;
+    height: 220px;
+    margin-top: -30px;
+    padding: 0px 5px 0px 30px;
+    display: flex;
+    flex: 2;
+    
+  }
+  #newsvid{
+    padding: 20px 7px 0px 20px;
+    flex: 1;
+  }
+  #newstext {
+    font-size: 0.63em;
+    font-family: 'McLaren', cursive;
+    line-height: 1em;
+    padding: 20px 25px 0px 7px;
+    flex: 1;
+    text-align: justify;
+  }
+  #newsbar {
+    background-size: 180px auto;
+    background-repeat: no-repeat;
+    background-image: url("newsbar.png");
+    width: 260px;
+    height: 50px;
+    margin-left: 29%;
+    margin-top: -8px;
+  }
+  #count {
+    position: absolute;
+    margin-top: 241px;
+    margin-left: 44.5%;
+    opacity: 0.7;
+    text-align: center;
+  }
+#artcon {
+  background-image: url("artconimg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 6%;
+  width: 97.5%;
+  height: 420px;
+}
+#footcon {
+  margin-top: 5%;
+  width: 100%;
+  height: 700px;
+  background-color: rgb(12, 12, 12);
+  font-family: 'Yeon Sung';
+  display: flex;
+  flex: 3;
+  text-align: center;
+  flex-flow: row wrap;
+}  
+#art {
+  font-size: 0.7em;
+  width: 87vw;
+  height: 140px;
+  max-height: 550px;
+  font-family: 'Yeon Sung';
+  color: rgb(0, 0, 0);
+  margin-left: 25px;
+  padding-top: 25px;
+
+}
+.imgmagicadventures {
+  margin-bottom: -10px; width: 90px; height: 35px;
+}
+.imggirl {
+  width: 190px; margin-top: -5px; float: left; margin-left: 10px;
+}
+.imgart2 {
+  width: 300px; padding: 0px 10px 5px 10px; float: left;
+}
+.imgart4 {
+  width: 280px; padding: 0px 15px 5px 10px; float: left;
+}
+h3 {
+  margin-top: -5px;
+  margin-left: 10px;
+  text-shadow: 
+  0px 0px 20px rgba(0, 0, 0, 0.438);
+  text-align: center;
+  font-size: 1.6em;
+  border-bottom: 2px rgba(207, 155, 43, 0.342) solid;
+  padding-bottom: 5px;
+}
+#arttime, #arttime2, #arttime3, #arttime4 {
+  font-size: 0.9em;
+  text-align: right;
+  margin-top: -10px;
+  }
+.text {
+  margin-top: -5px; margin-left: 10px; font-size: 0.85em; padding: 0px 10px 0px 10px;
+}
+.text2 {
+margin-top: -5px; font-size: 0.85em; padding: 0px 10px 0px 10px;
+}
+.text3 {
+  margin-top: -5px; font-size: 0.8em; padding: 0px 0px 0px 10px;
+  }
+.text4 {
+  margin-top: -5px; font-size: 0.8em; padding: 0px 0px 0px 10px;
+  }
+#footsec1{
+color: rgb(231, 150, 44);
+flex: 1 0 320px;
+order: 1;
+margin-left: 0px;
+margin-top: 10px;
+
+}
+#revision{
+  width: 250px;
+  margin-left: 30px;
+}
+#revision2{
+  width: 250px;
+  margin-left: 20px;
+}
+
+#footsec2{
+  color: rgb(231, 150, 44);
+flex: 1 0 320px;
+order: 2;
+margin-top: -10px;
+margin-right: 0px;
+
+}
+#ftlinks {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: -10px;
+}
+#ftlinks a {
+  color: rgb(190, 190, 190);
+  text-decoration: none;
+  font-size: 1em;
+  line-height: 1.4em;
+}
+#ftlinks a:hover {
+  color: white;
+
+}
+#search-icon{
+  width: 35px;
+  height: 35px;
+  margin-bottom: -10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  color: silver;
+}
+
+#footsec3{
+  color: rgb(231, 150, 44);
+flex: 1;
+order: 3;
+margin-top: -10px;
+
+}
+#newsletter-icon{
+  
+  width: 35px;
+  height: 35px;
+  margin-bottom: -10px;
+  margin-right: 10px;
+}
+
+#subfootcon{ /* kontener subfootera*/
+  font-family: 'Yeon Sung';
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row nowrap;
+  color: rgb(17, 17, 17);
+  max-width: 100%;
+  bottom: 0 auto;
+  width: 100%;
+  height: 130px;
+  background-color: rgb(0, 0, 0);
+}
+#sf-p0 {
+  padding-top: 95px;
+  margin-left: -20px;
+  order: 1;
+  flex: 1;
+}
+#sf-p1 {
+  padding-top: 95px;
+  padding-left: 0px;
+  order: 2;
+  flex: 1;
+}
+#sf-p2 {
+  padding-top: 95px;
+  padding-left: 0px;
+  order: 3;
+  flex: 1; 
+}
+
+          #sfmediacon {
+            position: absolute;
+            display: flex;
+            height: auto;
+            justify-content: space-around;
+            margin-top: 5px;
+            margin-right: 18%;
+          }
+#sf-twitter {
+  background-image: url("twitter.png");
+  background-size: 35px 35px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+
+  order: 1;
+  flex: 1;
+}
+#sf-facebook {
+  background-image: url(facebook.png);
+  background-size: 35px 35px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  order: 2;
+  flex: 1;
+}
+#sf-youtube {
+  background-image: url(youtube.png);
+  background-size: 35px 35px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  order: 3;
+  flex: 1; 
+}
+.subscribebutton{
+  width: 120px; 
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 20px; 
+  background-color: rgb(233, 143, 25); 
+  border-radius: 60px; font-size: 0.6em;
+  font-weight: bold;
+}
+.nextleft{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url(nextleft.png);
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  margin-top: 110px;
+  margin-left: -5%;
+}
+.nextleft:hover{
+  background-image: url(nextleft_h.png);
+}
+.nextright{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url(nextright.png);
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  margin-top: 110px;
+  margin-left: 93%;
+}
+.contactform {
+ height: 200px; margin-top: 30px;
+ width: 200px;
+}
+#sfmediacon2 {
+  position: absolute;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  right: 10px;
+  top: 10px;
+  border-radius: 5%;
+  width:120px;
+ }
+ #sf-twitter2 {
+  background-size: 35px 35px;
+  padding-top: 35px;
+  padding-right: 35px;
+  }
+  #sf-facebook2 {
+  background-size: 35px 35px;;
+  padding-top: 35px;
+  padding-right: 35px;
+  }
+  #sf-youtube2 {
+  background-size: 35px 35px;
+  padding-top: 35px;
+  padding-right: 35px;
+  }
+.buybutton{
+  width: 90px;
+  height: 35px;
+  background-color: rgb(233, 143, 25); 
+  border-radius: 60px; font-size: 1.1em;
+  font-weight: bold;
+  margin-top: -25px;
+  position: absolute;
+  margin-left: 40%;
+}
+.buytext{
+  line-height: 1em; margin-top: 0px; font-size: 1.3em; padding: 10px 10px 10px 10px;
+}
+.imgbuybox {
+  width: 200px; margin-left: 0px; margin-top: 0px; float: left;
+}
+.sendbutton{
+  width: 90px;
+  height: 30px;
+  background-color: rgb(233, 143, 25); 
+  border-radius: 60px; font-size: 0.8em;
+  font-weight: bold;
+  position: absolute;
+  margin-top: 240px;
+  margin-left: -170px;
+
+}
+
+
+@media only screen and (min-width:769px){
+
+}
+@media only screen and (min-width:768px){
+  
+}
+@media only screen and (min-width:640px){
+  
+}
+@media only screen and (min-width:480px){
+  
+}
